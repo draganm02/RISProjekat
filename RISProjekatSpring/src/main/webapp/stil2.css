@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+select, input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff; /* Blue text color */
+}
+
+select:hover, input[type="submit"]:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #007bff; /* Blue border */
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #007bff; /* Blue header background */
+    color: #fff;
+}
+
+a button {
+    padding: 10px;
+    background-color: #28a745; /* Green button background */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Style for the nested table */
+table table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+}

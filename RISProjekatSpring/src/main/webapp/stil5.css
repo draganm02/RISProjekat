@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #12372a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #436850;
+    padding: 10px 0;
+}
+
+.menu nav {
+    text-align: center;
+}
+
+.menu nav a {
+    color: #adbc9f;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.menu nav a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    color: #adbc9f;
+    text-align: center;
+}
+
+.button1 {
+    background-color: #bfada9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #adbc9f;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form select, form input[type="submit"] {
+    background-color: #bfada9;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+}
+
+form select:hover, form input[type="submit"]:hover {
+    background-color: #adbc9f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #adbc9f;
+    padding: 10px;
+}
+
+table th {
+    background-color: #436850;
+    color: #ffffff;
+}
+
+table a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+table button {
+    background-color: #bfada9;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #adbc9f;
+}

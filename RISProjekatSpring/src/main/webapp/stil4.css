@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #007bff; /* Blue heading color */
+}
+
+form {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.button1 {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.table1, .table2, .table3 {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table1 th, .table1 td,
+.table2 th, .table2 td,
+.table3 th, .table3 td {
+    border: 1px solid #007bff; /* Blue border */
+    padding: 12px;
+    text-align: left;
+}
+
+.table1 th {
+    background-color: #007bff; /* Blue header background */
+    color: #fff;
+}
+
+
+
+.table3 h2 {
+    color: #007bff; /* Blue heading color */
+}
+
+#textInput {
+    padding: 8px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    .table1, .table2, .table3 {
+        width: 100%;
+    }
+}
